@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Coin Toss WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Coin Toss.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>B5F1C0DE1A818C46000F16A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B5F1C0FC1A818EB5000F16A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

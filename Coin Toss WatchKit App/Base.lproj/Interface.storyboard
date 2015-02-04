@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14C109" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Coin_Toss_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="79" height="19" alignment="center" verticalAlignment="bottom" title="Flip Coin!" id="N1V-pA-EkF">
+                            <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="flipPressed" destination="AgC-eL-Hgc" id="8BH-ls-2NE"/>
+                            </connections>
+                        </button>
+                        <imageView width="134" height="133" alignment="center" image="Heads.png" contentMode="scaleAspectFill" id="GYA-2D-vK9"/>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="coinImage" destination="GYA-2D-vK9" id="ehz-Oi-hlB"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="423" y="238.5"/>
+        </scene>
+    </scenes>
+</document>

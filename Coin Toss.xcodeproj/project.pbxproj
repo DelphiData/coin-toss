@@ -13,6 +13,14 @@
 		B5F1C0D71A818C46000F16A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C0D61A818C46000F16A1 /* Images.xcassets */; };
 		B5F1C0DA1A818C46000F16A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C0D81A818C46000F16A1 /* LaunchScreen.xib */; };
 		B5F1C0E61A818C46000F16A1 /* Coin_TossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1C0E51A818C46000F16A1 /* Coin_TossTests.swift */; };
+		B5F1C0F81A818EB5000F16A1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F1C0F71A818EB5000F16A1 /* InterfaceController.swift */; };
+		B5F1C0FA1A818EB5000F16A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C0F91A818EB5000F16A1 /* Images.xcassets */; };
+		B5F1C0FE1A818EB5000F16A1 /* Coin Toss WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C0FD1A818EB5000F16A1 /* Coin Toss WatchKit App.app */; };
+		B5F1C1061A818EB5000F16A1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1041A818EB5000F16A1 /* Interface.storyboard */; };
+		B5F1C1081A818EB5000F16A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1071A818EB5000F16A1 /* Images.xcassets */; };
+		B5F1C10B1A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5F1C0F31A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B5F1C1151A818F6C000F16A1 /* This Tails.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1131A818F6C000F16A1 /* This Tails.png */; };
+		B5F1C1161A818F6C000F16A1 /* Heads.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1141A818F6C000F16A1 /* Heads.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +31,35 @@
 			remoteGlobalIDString = B5F1C0C91A818C46000F16A1;
 			remoteInfo = "Coin Toss";
 		};
+		B5F1C0FF1A818EB5000F16A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F1C0C21A818C46000F16A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F1C0FC1A818EB5000F16A1;
+			remoteInfo = "Coin Toss WatchKit App";
+		};
+		B5F1C1091A818EB5000F16A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F1C0C21A818C46000F16A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F1C0F21A818EB5000F16A1;
+			remoteInfo = "Coin Toss WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5F1C1121A818EB5000F16A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B5F1C10B1A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B5F1C0CA1A818C46000F16A1 /* Coin Toss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Toss.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +72,16 @@
 		B5F1C0DF1A818C46000F16A1 /* Coin TossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coin TossTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F1C0E41A818C46000F16A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5F1C0E51A818C46000F16A1 /* Coin_TossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin_TossTests.swift; sourceTree = "<group>"; };
+		B5F1C0F31A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Coin Toss WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F1C0F61A818EB5000F16A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F1C0F71A818EB5000F16A1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B5F1C0F91A818EB5000F16A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5F1C0FD1A818EB5000F16A1 /* Coin Toss WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin Toss WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F1C1031A818EB5000F16A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F1C1051A818EB5000F16A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B5F1C1071A818EB5000F16A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5F1C1131A818F6C000F16A1 /* This Tails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "This Tails.png"; sourceTree = "<group>"; };
+		B5F1C1141A818F6C000F16A1 /* Heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heads.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +99,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5F1C0F01A818EB5000F16A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +114,8 @@
 			children = (
 				B5F1C0CC1A818C46000F16A1 /* Coin Toss */,
 				B5F1C0E21A818C46000F16A1 /* Coin TossTests */,
+				B5F1C0F41A818EB5000F16A1 /* Coin Toss WatchKit Extension */,
+				B5F1C1011A818EB5000F16A1 /* Coin Toss WatchKit App */,
 				B5F1C0CB1A818C46000F16A1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +125,8 @@
 			children = (
 				B5F1C0CA1A818C46000F16A1 /* Coin Toss.app */,
 				B5F1C0DF1A818C46000F16A1 /* Coin TossTests.xctest */,
+				B5F1C0F31A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex */,
+				B5F1C0FD1A818EB5000F16A1 /* Coin Toss WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +169,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5F1C0F41A818EB5000F16A1 /* Coin Toss WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1C0F71A818EB5000F16A1 /* InterfaceController.swift */,
+				B5F1C0F91A818EB5000F16A1 /* Images.xcassets */,
+				B5F1C0F51A818EB5000F16A1 /* Supporting Files */,
+			);
+			path = "Coin Toss WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B5F1C0F51A818EB5000F16A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1C0F61A818EB5000F16A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5F1C1011A818EB5000F16A1 /* Coin Toss WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1C1041A818EB5000F16A1 /* Interface.storyboard */,
+				B5F1C1071A818EB5000F16A1 /* Images.xcassets */,
+				B5F1C1131A818F6C000F16A1 /* This Tails.png */,
+				B5F1C1141A818F6C000F16A1 /* Heads.png */,
+				B5F1C1021A818EB5000F16A1 /* Supporting Files */,
+			);
+			path = "Coin Toss WatchKit App";
+			sourceTree = "<group>";
+		};
+		B5F1C1021A818EB5000F16A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1C1031A818EB5000F16A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +217,12 @@
 				B5F1C0C61A818C46000F16A1 /* Sources */,
 				B5F1C0C71A818C46000F16A1 /* Frameworks */,
 				B5F1C0C81A818C46000F16A1 /* Resources */,
+				B5F1C1121A818EB5000F16A1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B5F1C10A1A818EB5000F16A1 /* PBXTargetDependency */,
 			);
 			name = "Coin Toss";
 			productName = "Coin Toss";
@@ -150,6 +247,39 @@
 			productReference = B5F1C0DF1A818C46000F16A1 /* Coin TossTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B5F1C0F21A818EB5000F16A1 /* Coin Toss WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F1C10F1A818EB5000F16A1 /* Build configuration list for PBXNativeTarget "Coin Toss WatchKit Extension" */;
+			buildPhases = (
+				B5F1C0EF1A818EB5000F16A1 /* Sources */,
+				B5F1C0F01A818EB5000F16A1 /* Frameworks */,
+				B5F1C0F11A818EB5000F16A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F1C1001A818EB5000F16A1 /* PBXTargetDependency */,
+			);
+			name = "Coin Toss WatchKit Extension";
+			productName = "Coin Toss WatchKit Extension";
+			productReference = B5F1C0F31A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B5F1C0FC1A818EB5000F16A1 /* Coin Toss WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F1C10C1A818EB5000F16A1 /* Build configuration list for PBXNativeTarget "Coin Toss WatchKit App" */;
+			buildPhases = (
+				B5F1C0FB1A818EB5000F16A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coin Toss WatchKit App";
+			productName = "Coin Toss WatchKit App";
+			productReference = B5F1C0FD1A818EB5000F16A1 /* Coin Toss WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +295,12 @@
 					B5F1C0DE1A818C46000F16A1 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = B5F1C0C91A818C46000F16A1;
+					};
+					B5F1C0F21A818EB5000F16A1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B5F1C0FC1A818EB5000F16A1 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +319,8 @@
 			targets = (
 				B5F1C0C91A818C46000F16A1 /* Coin Toss */,
 				B5F1C0DE1A818C46000F16A1 /* Coin TossTests */,
+				B5F1C0F21A818EB5000F16A1 /* Coin Toss WatchKit Extension */,
+				B5F1C0FC1A818EB5000F16A1 /* Coin Toss WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +340,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1C0F11A818EB5000F16A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F1C0FA1A818EB5000F16A1 /* Images.xcassets in Resources */,
+				B5F1C0FE1A818EB5000F16A1 /* Coin Toss WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1C0FB1A818EB5000F16A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F1C1061A818EB5000F16A1 /* Interface.storyboard in Resources */,
+				B5F1C1161A818F6C000F16A1 /* Heads.png in Resources */,
+				B5F1C1081A818EB5000F16A1 /* Images.xcassets in Resources */,
+				B5F1C1151A818F6C000F16A1 /* This Tails.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B5F1C0EF1A818EB5000F16A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F1C0F81A818EB5000F16A1 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +398,16 @@
 			isa = PBXTargetDependency;
 			target = B5F1C0C91A818C46000F16A1 /* Coin Toss */;
 			targetProxy = B5F1C0E01A818C46000F16A1 /* PBXContainerItemProxy */;
+		};
+		B5F1C1001A818EB5000F16A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F1C0FC1A818EB5000F16A1 /* Coin Toss WatchKit App */;
+			targetProxy = B5F1C0FF1A818EB5000F16A1 /* PBXContainerItemProxy */;
+		};
+		B5F1C10A1A818EB5000F16A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F1C0F21A818EB5000F16A1 /* Coin Toss WatchKit Extension */;
+			targetProxy = B5F1C1091A818EB5000F16A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +426,14 @@
 				B5F1C0D91A818C46000F16A1 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B5F1C1041A818EB5000F16A1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F1C1051A818EB5000F16A1 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -336,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Coin Toss/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Coin Toss/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +572,62 @@
 			};
 			name = Release;
 		};
+		B5F1C10D1A818EB5000F16A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Coin_Toss_WatchKit_Extension;
+				INFOPLIST_FILE = "Coin Toss WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B5F1C10E1A818EB5000F16A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Coin_Toss_WatchKit_Extension;
+				INFOPLIST_FILE = "Coin Toss WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		B5F1C1101A818EB5000F16A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Coin Toss WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B5F1C1111A818EB5000F16A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Coin Toss WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +653,22 @@
 			buildConfigurations = (
 				B5F1C0ED1A818C46000F16A1 /* Debug */,
 				B5F1C0EE1A818C46000F16A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5F1C10C1A818EB5000F16A1 /* Build configuration list for PBXNativeTarget "Coin Toss WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F1C10D1A818EB5000F16A1 /* Debug */,
+				B5F1C10E1A818EB5000F16A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5F1C10F1A818EB5000F16A1 /* Build configuration list for PBXNativeTarget "Coin Toss WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F1C1101A818EB5000F16A1 /* Debug */,
+				B5F1C1111A818EB5000F16A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
