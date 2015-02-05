@@ -21,6 +21,8 @@
 		B5F1C10B1A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B5F1C0F31A818EB5000F16A1 /* Coin Toss WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B5F1C1151A818F6C000F16A1 /* This Tails.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1131A818F6C000F16A1 /* This Tails.png */; };
 		B5F1C1161A818F6C000F16A1 /* Heads.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1141A818F6C000F16A1 /* Heads.png */; };
+		B5F1C1191A82F4B5000F16A1 /* This Tails.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1171A82F4B5000F16A1 /* This Tails.png */; };
+		B5F1C11A1A82F4B5000F16A1 /* Heads.png in Resources */ = {isa = PBXBuildFile; fileRef = B5F1C1181A82F4B5000F16A1 /* Heads.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +84,8 @@
 		B5F1C1071A818EB5000F16A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5F1C1131A818F6C000F16A1 /* This Tails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "This Tails.png"; sourceTree = "<group>"; };
 		B5F1C1141A818F6C000F16A1 /* Heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heads.png; sourceTree = "<group>"; };
+		B5F1C1171A82F4B5000F16A1 /* This Tails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "This Tails.png"; sourceTree = "<group>"; };
+		B5F1C1181A82F4B5000F16A1 /* Heads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heads.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				B5F1C0D11A818C46000F16A1 /* ViewController.swift */,
 				B5F1C0D31A818C46000F16A1 /* Main.storyboard */,
 				B5F1C0D61A818C46000F16A1 /* Images.xcassets */,
+				B5F1C1171A82F4B5000F16A1 /* This Tails.png */,
+				B5F1C1181A82F4B5000F16A1 /* Heads.png */,
 				B5F1C0D81A818C46000F16A1 /* LaunchScreen.xib */,
 				B5F1C0CD1A818C46000F16A1 /* Supporting Files */,
 			);
@@ -332,6 +338,8 @@
 			files = (
 				B5F1C0D51A818C46000F16A1 /* Main.storyboard in Resources */,
 				B5F1C0DA1A818C46000F16A1 /* LaunchScreen.xib in Resources */,
+				B5F1C11A1A82F4B5000F16A1 /* Heads.png in Resources */,
+				B5F1C1191A82F4B5000F16A1 /* This Tails.png in Resources */,
 				B5F1C0D71A818C46000F16A1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -647,6 +655,7 @@
 				B5F1C0EB1A818C46000F16A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5F1C0EC1A818C46000F16A1 /* Build configuration list for PBXNativeTarget "Coin TossTests" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +664,7 @@
 				B5F1C0EE1A818C46000F16A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5F1C10C1A818EB5000F16A1 /* Build configuration list for PBXNativeTarget "Coin Toss WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +673,7 @@
 				B5F1C10E1A818EB5000F16A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5F1C10F1A818EB5000F16A1 /* Build configuration list for PBXNativeTarget "Coin Toss WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +682,7 @@
 				B5F1C1111A818EB5000F16A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
